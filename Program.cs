@@ -2,20 +2,20 @@
 {
     static void Main(string[] args)
     {
-        // try
-        // {
-        //      Console.WriteLine("Bir sayı giriniz: ");
-        //     int sayi = Convert.ToInt32(Console.ReadLine());
-        //     Console.WriteLine("girmiş olduğunuz sayı: " + sayi);
-        // }
-        // catch(Exception ex)
-        // {
-        //     Console.WriteLine("Hata: " + ex.Message.ToString());
-        // }
-        //  finally
-        //  {
-        //      Console.WriteLine("İşlem tamamlandı.");
-        //  }
+        try
+        {
+             Console.WriteLine("Bir sayı giriniz: ");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("girmiş olduğunuz sayı: " + sayi);
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine("Hata: " + ex.Message.ToString());
+        }
+         finally
+         {
+             Console.WriteLine("İşlem tamamlandı.");
+         }
 
         try
         {
